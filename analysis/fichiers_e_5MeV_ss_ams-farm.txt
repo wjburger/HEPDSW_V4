@@ -1,0 +1,9 @@
+/data8/wduser/wjb/HEPDData/Electron/E5MeV/ElectronE5MeV_Job_1_Seeds_30368_2521_ss.root
+/data8/wduser/wjb/HEPDData/Electron/E5MeV/ElectronE5MeV_Job_2_Seeds_9252_18099_ss.root
+/data8/wduser/wjb/HEPDData/Electron/E5MeV/ElectronE5MeV_Job_3_Seeds_9936_10324_ss.root
+/data8/wduser/wjb/HEPDData/Electron/E5MeV/ElectronE5MeV_Job_4_Seeds_6286_3881_ss.root
+/data8/wduser/wjb/HEPDData/Electron/E5MeV/ElectronE5MeV_Job_5_Seeds_15945_11700_ss.root
+/data8/wduser/wjb/HEPDData/Electron/E5MeV/ElectronE5MeV_Job_6_Seeds_29205_32151_ss.root
+/data8/wduser/wjb/HEPDData/Electron/E5MeV/ElectronE5MeV_Job_7_Seeds_25428_28578_ss.root
+/data8/wduser/wjb/HEPDData/Electron/E5MeV/ElectronE5MeV_Job_8_Seeds_19547_14574_ss.root
+/data8/wduser/wjb/HEPDData/Electron/E5MeV/ElectronE5MeV_Job_9_Seeds_21821_8875_ss.root

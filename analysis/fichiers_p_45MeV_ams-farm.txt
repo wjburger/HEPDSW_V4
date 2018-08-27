@@ -1,0 +1,10 @@
+/data8/wduser/wjb/HEPDData/Proton/E45MeV/ProtonE45MeV_Job_10_Seeds_18084_2108.root
+/data8/wduser/wjb/HEPDData/Proton/E45MeV/ProtonE45MeV_Job_1_Seeds_20765_13548.root
+/data8/wduser/wjb/HEPDData/Proton/E45MeV/ProtonE45MeV_Job_2_Seeds_24362_24914.root
+/data8/wduser/wjb/HEPDData/Proton/E45MeV/ProtonE45MeV_Job_3_Seeds_5347_16281.root
+/data8/wduser/wjb/HEPDData/Proton/E45MeV/ProtonE45MeV_Job_4_Seeds_11207_12068.root
+/data8/wduser/wjb/HEPDData/Proton/E45MeV/ProtonE45MeV_Job_5_Seeds_23511_11322.root
+/data8/wduser/wjb/HEPDData/Proton/E45MeV/ProtonE45MeV_Job_6_Seeds_28311_25372.root
+/data8/wduser/wjb/HEPDData/Proton/E45MeV/ProtonE45MeV_Job_7_Seeds_3629_9509.root
+/data8/wduser/wjb/HEPDData/Proton/E45MeV/ProtonE45MeV_Job_8_Seeds_17784_27179.root
+/data8/wduser/wjb/HEPDData/Proton/E45MeV/ProtonE45MeV_Job_9_Seeds_24721_27235.root

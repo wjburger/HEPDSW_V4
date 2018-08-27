@@ -1,0 +1,10 @@
+/home/wjb_local/aiglon/geant4/root/ElectronPowerlaw_Job_9_Seeds_12494_19927.root
+/home/wjb_local/aiglon/geant4/root/ElectronPowerlaw_Job_17_Seeds_13468_23224.root
+/home/wjb_local/aiglon/geant4/root/ElectronPowerlaw_Job_100_Seeds_11280_23968.root
+/home/wjb_local/aiglon/geant4/root/ElectronPowerlaw_Job_10_Seeds_54_19908.root
+/home/wjb_local/aiglon/geant4/root/ElectronPowerlaw_Job_11_Seeds_27277_14365.root
+/home/wjb_local/aiglon/geant4/root/ElectronPowerlaw_Job_12_Seeds_32540_3013.root
+/home/wjb_local/aiglon/geant4/root/ElectronPowerlaw_Job_13_Seeds_32746_17527.root
+/home/wjb_local/aiglon/geant4/root/ElectronPowerlaw_Job_14_Seeds_11910_432.root
+/home/wjb_local/aiglon/geant4/root/ElectronPowerlaw_Job_15_Seeds_20845_22898.root
+/home/wjb_local/aiglon/geant4/root/ElectronPowerlaw_Job_16_Seeds_26667_1106.root

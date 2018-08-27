@@ -1,0 +1,102 @@
+#
+/control/verbose 2
+/run/verbose 1
+#
+/hepd/setWorldSize 55 75 80 cm
+#/hepd/setWorldSize 55 75 150 cm
+
+/hepd/ActivateSatellite false
+
+/hepd/SatelliteConfiguration Config1
+/hepd/Satellite/BlanketMaterialConfiguration mylar
+/hepd/Satellite/WallMaterialConfiguration Aluminium
+
+/hepd/ActivateHEPDBox false
+/hepd/HEPDBoxConfiguration Config4
+/hepd/HEPDBox/BlanketMaterialConfiguration mylar
+/hepd/HEPDBox/WallTwoMaterialConfiguration Aluminium HCAluminium
+
+/hepd/ActivateTracker false
+/hepd/TrackerConfiguration Config4
+/hepd/Tracker/SiliconMaterialConfiguration Silicon
+/hepd/Tracker/KaptonMaterialConfiguration Kapton
+/hepd/Tracker/CarbonFiberMaterialConfiguration CarbonFiber
+
+#/hepd/ActivateScintillator true
+#/hepd/ScintillatorConfiguration Config4
+#/hepd/Scintillator/ScintillatorMaterialConfiguration Scintillator
+#/hepd/Scintillator/PoronMaterialConfiguration Poron 
+#/hepd/Scintillator/CarbonFiberMaterialConfiguration CarbonFiber
+
+/hepd/ActivateCalo true
+/hepd/CaloConfiguration Optical
+/hepd/Calorimeter/CalorimeterTwoMaterialConfiguration ScintillatorEJ200 LYSOOpt
+/hepd/Calorimeter/VetoMaterialConfiguration Scintillator
+/hepd/Calorimeter/PoronMaterialConfiguration Poron
+/hepd/Calorimeter/CarbonFiberMaterialConfiguration CarbonFiber
+
+#
+/hepd/phys/addPhysics  emstandard_opt4
+/hepd/phys/addPhysics  optical_processes
+/run/initialize
+#/hepd/ScintillatorSD/useBirksLaw false
+#/hepd/CalorimeterSD/useBirksLaw false
+#/hepd/VetoSD/useBirksLaw false
+#
+# Use this open statement to create an OpenGL view:
+/vis/open OGL 600x600-0+0
+
+# Disable auto refresh and quieten vis messages whilst scene and
+# trajectories are established:
+/vis/viewer/set/autoRefresh false
+/vis/verbose errors
+#
+# Draw geometry:
+/vis/drawVolume
+#/vis/viewer/set/style wireframe
+#/vis/viewer/set/style surface
+#
+# Draw coordinate axes:
+/vis/scene/add/axes 0 0 0 20 cm
+/vis/viewer/set/background white
+/vis/viewer/set/viewpointThetaPhi 0. 90.
+#
+# Draw smooth trajectories at end of event, showing trajectory points
+# as markers 2 pixels wide:
+/vis/scene/add/trajectories smooth
+#/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/create/drawByParticleID
+/vis/modeling/trajectories/drawByParticleID-0/set proton red
+/vis/modeling/trajectories/drawByParticleID-0/set e+ blue
+/vis/modeling/trajectories/drawByParticleID-0/set e- blue
+/vis/modeling/trajectories/drawByParticleID-0/set alpha magenta
+/vis/modeling/trajectories/drawByParticleID-0/set mu+ green
+/vis/modeling/trajectories/drawByParticleID-0/set mu- green
+/vis/modeling/trajectories/drawByParticleID-0/set pi+ cyan
+/vis/modeling/trajectories/drawByParticleID-0/set pi- cyan
+/vis/modeling/trajectories/drawByParticleID-0/set neutron black
+/vis/modeling/trajectories/drawByParticleID-0/set gamma yellow
+#
+# To superimpose all of the events from a given run:
+/vis/scene/endOfEventAction accumulate
+#
+/vis/ogl/set/displayListLimit 1000000
+#
+# Re-establish auto refreshing and verbosity:
+/vis/viewer/set/autoRefresh true
+/vis/verbose warnings
+#
+/hepd/gun/setDefault
+#/hepd/gun/beam -1.75 -1.80 cm 0 deg
+/hepd/gun/tbeam d2 0 deg
+#/hepd/gun/random
+#/hepd/gun/toCenter
+/hepd/gun/particle proton
+/hepd/gun/energy 30 MeV
+#
+#/hepd/producer/StoreCalorimeterInfo false
+/hepd/producer/SetRootFile Test.root HEPD
+
+/run/beamOn 1
+
+#/hepd/producer/StoreRootFile

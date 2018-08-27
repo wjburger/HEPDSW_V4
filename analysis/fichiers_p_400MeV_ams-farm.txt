@@ -1,0 +1,10 @@
+/data8/wduser/wjb/HEPDData/Proton/E400MeV/ProtonE400MeV_Job_10_Seeds_23410_26306.root
+/data8/wduser/wjb/HEPDData/Proton/E400MeV/ProtonE400MeV_Job_1_Seeds_14919_6865.root
+/data8/wduser/wjb/HEPDData/Proton/E400MeV/ProtonE400MeV_Job_2_Seeds_19357_20359.root
+/data8/wduser/wjb/HEPDData/Proton/E400MeV/ProtonE400MeV_Job_3_Seeds_24309_12672.root
+/data8/wduser/wjb/HEPDData/Proton/E400MeV/ProtonE400MeV_Job_4_Seeds_31085_20310.root
+/data8/wduser/wjb/HEPDData/Proton/E400MeV/ProtonE400MeV_Job_5_Seeds_20742_7210.root
+/data8/wduser/wjb/HEPDData/Proton/E400MeV/ProtonE400MeV_Job_6_Seeds_2011_23797.root
+/data8/wduser/wjb/HEPDData/Proton/E400MeV/ProtonE400MeV_Job_7_Seeds_21452_6274.root
+/data8/wduser/wjb/HEPDData/Proton/E400MeV/ProtonE400MeV_Job_8_Seeds_9451_26974.root
+/data8/wduser/wjb/HEPDData/Proton/E400MeV/ProtonE400MeV_Job_9_Seeds_17590_14787.root
